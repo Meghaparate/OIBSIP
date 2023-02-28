@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Temperature Converter</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1>TEMPERATURE CONVERTER</h1>
+			<label for="celsius">Celsius</label>
+			<input id="celsius" type="text" placeholder="Enter Celcius">
+			<button class="button" onclick="CF()">Convert Fahrenheit</button>
+			<br><br>
+			<label for="fahrenheit">Fahrenheit</label>
+			<input id="fahrenheit" type="text" placeholder="Enter Fahrenheit">
+			<button class="button" onclick="CC()">Convert Celsius</button>
+			<br><br><span id="error" style="color: crimson;"></span><br><br>
+			<button onclick="reset()">Reset</button>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
